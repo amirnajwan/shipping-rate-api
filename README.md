@@ -24,7 +24,25 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This is a [Nest](https://github.com/nestjs/nest) framework for retrieving shipping rates from CityLink and SkyNet for now. The API combines the results from 2 different and returns a unified response.
+
+## Disclaimer
+
+- I used CityLink and SkyNet APIs although the question instructed to use J&T api.
+- Because J&T APIs have authority issues to use their APIs.
+
+## Features
+
+- Fetch shipping rates from multiple APIs
+- Combine and format results
+- Dockerized for ease of deployment
+- Swagger documentation for API endpoints
+
+## Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+- Docker (for containerization)
 
 ## Installation
 
@@ -64,9 +82,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Amir Najwan](amirnajwan.an@gmail.com)
 
 ## License
 
