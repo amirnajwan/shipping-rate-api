@@ -26,6 +26,15 @@
 
 This is a [Nest](https://github.com/nestjs/nest) framework for retrieving shipping rates from CityLink and SkyNet for now. The API combines the results from 2 different and returns a unified response.
 
+## Docker URL
+
+```bash
+$ docker pull milodurian/shipping-rate-api:latest
+```
+
+## Documentation
+- Please read documentation in Wiki Pages for more information.
+
 ## Disclaimer
 
 - I used CityLink and SkyNet APIs although the question instructed to use J&T api.
